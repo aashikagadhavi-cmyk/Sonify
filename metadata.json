@@ -1,0 +1,6 @@
+{
+  "name": "SonifyAI",
+  "description": "Transforming Businesses with Generative AI. Next-generation AI platform combining advanced language models, workflow automation, and intelligent digital generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
