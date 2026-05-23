@@ -15,6 +15,7 @@ import Playground from "./components/Playground";
 import Process from "./components/Process";
 import Testimonials from "./components/Testimonials";
 import CTASection from "./components/CTASection";
+import CorporateCredentials from "./components/CorporateCredentials";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -36,6 +37,7 @@ export default function App() {
         <Process />
         <Testimonials />
         <CTASection />
+        <CorporateCredentials />
       </main>
       <Footer />
     </div>

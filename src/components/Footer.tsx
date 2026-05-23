@@ -1,5 +1,5 @@
 import React from "react";
-import { Bot, Mail, ShieldAlert, Cpu, Terminal, ArrowUpCircle } from "lucide-react";
+import { Bot, Mail, ShieldAlert, Cpu, Terminal, ArrowUpCircle, MapPin, User } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 items-stretch mb-16">
           
           {/* Column 1: Info */}
-          <div className="md:col-span-5 text-left flex flex-col justify-between">
+          <div className="md:col-span-5 text-left flex flex-col justify-between gap-6">
             <div>
               <a href="#" className="flex items-center gap-2.5 group mb-6">
                 <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-500 via-indigo-600 to-purple-600 flex items-center justify-center p-0.5 shadow-md shadow-indigo-950/20">
@@ -27,25 +27,46 @@ export default function Footer() {
                 </div>
                 <div>
                   <span className="font-sans font-bold text-white text-base tracking-tight block">
-                    Sonify<span className="text-indigo-400">AI</span>
+                    sonifyai<span className="text-indigo-400"> Private Limited</span>
                   </span>
                   <span className="text-[8px] font-mono text-zinc-550 uppercase tracking-widest block leading-none">
-                    Private Limited
+                    INCORPORATED REGISTRY
                   </span>
                 </div>
               </a>
 
               <p className="text-zinc-500 text-sm leading-relaxed mb-6 font-sans">
-                SonifyAI Private Limited is a next-generation generative AI company focused on transforming how businesses create, automate, and interact with digital content.
+                sonifyai Private Limited is a next-generation generative AI company focused on transforming how businesses create, automate, and interact with digital content.
               </p>
             </div>
 
-            <div className="flex flex-col gap-2.5">
-              <span className="text-xs font-mono text-zinc-650 uppercase tracking-widest block">Contact Coordinates</span>
-              <a href="mailto:info@sonifyai.com" className="flex items-center gap-2 text-xs font-sans text-white hover:text-indigo-400 transition-colors">
-                <Mail className="w-4.5 h-4.5 text-indigo-500" />
-                info@sonifyai.com
-              </a>
+            <div className="flex flex-col gap-4 bg-zinc-950/90 border border-indigo-500/25 p-5 rounded-2xl shadow-lg shadow-indigo-950/10">
+              <span className="text-[10px] font-mono text-indigo-400 uppercase tracking-widest block font-bold">🏢 Corporate HQ & Contact (Verified)</span>
+              
+              <div className="flex items-start gap-2.5 text-xs text-zinc-200 leading-relaxed font-sans">
+                <MapPin className="w-4 h-4 text-rose-500 shrink-0 mt-0.5 animate-pulse" />
+                <span className="font-medium text-white">4820 Ankur Building Prem Nagar, Mumbai, Maharashtra 400104</span>
+              </div>
+
+              <div className="h-[1px] bg-zinc-800/80 my-1" />
+
+              <div className="flex flex-col gap-2.5">
+                <a href="mailto:help@sonifyai.tech" className="inline-flex items-center gap-2 text-xs font-sans text-white hover:text-indigo-400 transition-colors bg-zinc-900 px-3 py-1.5 rounded-lg border border-zinc-800 w-fit">
+                  <Mail className="w-4 h-4 text-indigo-400" />
+                  <span className="font-mono font-bold text-indigo-300 hover:underline">help@sonifyai.tech</span>
+                </a>
+                
+                <div className="flex flex-col gap-1.5 mt-1 border-t border-zinc-900/40 pt-2 text-xs font-sans text-zinc-300">
+                  <div className="flex items-center gap-2">
+                    <User className="w-4 h-4 text-indigo-400 shrink-0" />
+                    <span>CEO: <span className="font-semibold text-white">Adarsh Yadav</span></span>
+                  </div>
+                  <div className="flex items-center gap-2 pl-6">
+                    <span className="text-[10px] font-mono uppercase tracking-wider text-zinc-500 shrink-0">CEO Email:</span>
+                    <a href="mailto:adarsh@sonifyai.tech" className="text-indigo-400 hover:underline font-mono font-semibold">adarsh@sonifyai.tech</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -100,7 +121,7 @@ export default function Footer() {
         {/* Legal and Copyright bar */}
         <div className="pt-8 border-t border-zinc-900 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-600 gap-4">
           <div className="font-sans text-left">
-            &copy; {currentYear} SonifyAI Private Limited. All rights reserved.
+            &copy; {currentYear} sonifyai Private Limited. All rights reserved.
           </div>
           <div className="flex items-center gap-6 font-mono text-[11px]">
             <a href="#" className="hover:text-zinc-400 transition-colors">PRIVACY_POLICY</a>
