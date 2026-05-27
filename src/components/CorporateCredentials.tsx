@@ -51,7 +51,7 @@ export default function CorporateCredentials() {
               </div>
 
               <h4 className="text-white font-sans font-extrabold text-2xl mb-1 tracking-tight">
-                Adarsh Yadav
+                Renu Yadav
               </h4>
               <p className="text-xs font-mono text-indigo-400 uppercase tracking-widest font-semibold mb-3">
                 Chief Executive Officer (CEO)
@@ -59,8 +59,8 @@ export default function CorporateCredentials() {
               
               <div className="flex items-center gap-2 mb-4 bg-zinc-900/80 px-3 py-1.5 rounded-lg border border-zinc-800/80 w-fit">
                 <Mail className="w-3.5 h-3.5 text-indigo-400" />
-                <a href="mailto:adarsh@sonifyai.tech" className="text-xs font-mono text-indigo-300 hover:text-indigo-200 font-bold hover:underline">
-                  adarsh@sonifyai.tech
+                <a href="mailto:renuyadav@sonifyai.tech" className="text-xs font-mono text-indigo-300 hover:text-indigo-200 font-bold hover:underline">
+                  renuyadav@sonifyai.tech
                 </a>
               </div>
 
@@ -72,11 +72,11 @@ export default function CorporateCredentials() {
             <div className="pt-5 border-t border-zinc-900 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <span className="font-mono text-[10px] text-zinc-450 font-bold uppercase tracking-wider">OFFICIAL CORRESPONDENCE:</span>
               <a
-                href="mailto:adarsh@sonifyai.tech"
+                href="mailto:renuyadav@sonifyai.tech"
                 className="inline-flex items-center gap-2 text-white bg-indigo-600 hover:bg-indigo-500 hover:scale-[1.02] px-4 py-2 rounded-xl font-mono text-xs font-bold shadow-lg shadow-indigo-900/20 transition-all self-start sm:self-auto"
               >
                 <Mail className="w-3.5 h-3.5 text-indigo-200" />
-                adarsh@sonifyai.tech
+                renuyadav@sonifyai.tech
               </a>
             </div>
           </motion.div>

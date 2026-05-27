@@ -59,11 +59,11 @@ export default function Footer() {
                 <div className="flex flex-col gap-1.5 mt-1 border-t border-zinc-900/40 pt-2 text-xs font-sans text-zinc-300">
                   <div className="flex items-center gap-2">
                     <User className="w-4 h-4 text-indigo-400 shrink-0" />
-                    <span>CEO: <span className="font-semibold text-white">Adarsh Yadav</span></span>
+                    <span>CEO: <span className="font-semibold text-white">Renu Yadav</span></span>
                   </div>
                   <div className="flex items-center gap-2 pl-6">
-                    <span className="text-[10px] font-mono uppercase tracking-wider text-zinc-500 shrink-0">CEO Email:</span>
-                    <a href="mailto:adarsh@sonifyai.tech" className="text-indigo-400 hover:underline font-mono font-semibold">adarsh@sonifyai.tech</a>
+                    <span className="text-[10px] font-mono uppercase tracking-wider text-zinc-550 shrink-0">CEO Email:</span>
+                    <a href="mailto:renuyadav@sonifyai.tech" className="text-indigo-400 hover:underline font-mono font-semibold">renuyadav@sonifyai.tech</a>
                   </div>
                 </div>
               </div>
