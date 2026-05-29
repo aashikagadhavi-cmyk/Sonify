@@ -17,6 +17,7 @@ import {
   Globe,
   Shuffle
 } from "lucide-react";
+import aiWorkflowFlow from "../assets/images/ai_workflow_flow_1780058407153.png";
 
 export default function Platform() {
   const [selectedModel, setSelectedModel] = useState<"sonify-ultra" | "sonify-flash" | "sonify-hybrid">("sonify-ultra");
@@ -270,6 +271,29 @@ export default function Platform() {
 
           </div>
 
+        </div>
+
+        {/* Visual Platform Integration Workflow Banner */}
+        <div className="glass-panel p-8 md:p-10 rounded-3xl border border-zinc-900 bg-zinc-950/25 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center text-left mb-16">
+          <div className="lg:col-span-7">
+            <span className="text-[10px] font-mono text-indigo-400 uppercase tracking-widest block mb-3 font-semibold">VISUAL FLOW ORCHESTRATION</span>
+            <h2 className="text-2xl md:text-3xl font-display font-bold text-white mb-4">Multi-Agent Workflow Pipelines</h2>
+            <p className="text-zinc-400 text-xs md:text-sm leading-relaxed font-sans mb-3">
+              Visually trace, test, and dispatch multi-model context pipelines. SonifyAI bridges the gap between disparate database schemas and conversational interfaces by executing secure localized agent loops.
+            </p>
+            <span className="text-[10px] text-zinc-500 font-mono block">Recommended topology for air-gapped secure enterprises with custom weights.</span>
+          </div>
+          <div className="lg:col-span-5 relative">
+            <div className="relative rounded-2xl overflow-hidden border border-zinc-900 shadow-2xl group mx-auto max-w-sm">
+              <img 
+                src={aiWorkflowFlow} 
+                alt="Automated multi-agent workflow visual diagram" 
+                className="w-full h-auto object-cover rounded-xl"
+                referrerPolicy="no-referrer"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/70 via-transparent to-transparent pointer-events-none" />
+            </div>
+          </div>
         </div>
 
         {/* Dynamic Architectural Platform features grids */}

@@ -18,6 +18,8 @@ import {
   Workflow,
   Laptop
 } from "lucide-react";
+import aiHeroConcept from "../assets/images/ai_hero_concept_1780058364397.png";
+import aiDashboardPreview from "../assets/images/ai_dashboard_preview_1780058386286.png";
 
 export default function Home() {
   const [demoStep, setDemoStep] = useState<"idle" | "booking" | "booked">("idle");
@@ -167,6 +169,17 @@ export default function Home() {
                   <span className="text-[9px] font-mono text-indigo-400 px-2 py-0.5 rounded bg-indigo-950 border border-indigo-500/20 font-bold uppercase">ACTIVE OK</span>
                 </div>
 
+                {/* Highly detailed AI dashboard generated asset preview */}
+                <div className="mb-4.5 relative rounded-xl overflow-hidden border border-zinc-900 shadow-inner group">
+                  <img 
+                    src={aiDashboardPreview} 
+                    alt="SonifyAI Analytics Dashboard Mockup" 
+                    className="w-full h-auto object-cover aspect-[4/3] rounded-xl transform group-hover:scale-102 transition-transform duration-500"
+                    referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-30 pointer-events-none" />
+                </div>
+
                 {/* Simulated Content Matrix */}
                 <div className="space-y-3.5">
                   <div className="p-3.5 bg-zinc-950/60 border border-zinc-900 rounded-xl relative">
@@ -257,6 +270,53 @@ export default function Home() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Dynamic Technology Spotlight Banner */}
+      <section className="py-16 border-t border-zinc-900/40 relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_120%,rgba(99,102,241,0.08),transparent_50%)] pointer-events-none" />
+        <div className="max-w-7xl mx-auto px-6 relative z-10">
+          <div className="glass-panel p-8 md:p-12 rounded-3xl border border-zinc-900 bg-zinc-950/25 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center text-left">
+            <div className="lg:col-span-6">
+              <span className="text-xs font-mono text-indigo-400 uppercase tracking-widest leading-none block mb-4">
+                CORE SYNTHETIC INFRASTRUCTURE
+              </span>
+              <h2 className="text-3xl md:text-5xl font-display font-extrabold text-white tracking-tight leading-none mb-6">
+                Next-Gen Generative Acoustic Engine
+              </h2>
+              <p className="text-zinc-400 text-sm leading-relaxed mb-6 font-sans">
+                Our ultra-low latency technology synthesizes real-world conversational parameters and constructs dynamic knowledge representations. Designed with local governance models complying with the DPDP standard, SonifyAI ensures maximum safety and high fidelity for your global workflow automations.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-md bg-indigo-950 flex items-center justify-center text-indigo-400 text-xs shrink-0 mt-0.5 border border-indigo-500/10">✓</div>
+                  <div>
+                    <strong className="text-white text-xs block mb-0.5">Dual-Stream Neural Flow</strong>
+                    <span className="text-zinc-500 text-[11px] block leading-relaxed">Coordinates simultaneous multi-modal semantic paths with zero quality degradation.</span>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-md bg-indigo-950 flex items-center justify-center text-indigo-400 text-xs shrink-0 mt-0.5 border border-indigo-500/10">✓</div>
+                  <div>
+                    <strong className="text-white text-xs block mb-0.5">DPDP Compliant Pipelines</strong>
+                    <span className="text-zinc-500 text-[11px] block leading-relaxed">Local, secure air-gapped container configurations to preserve confidential corporate integrity.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="lg:col-span-6">
+              <div className="relative rounded-2xl overflow-hidden border border-zinc-900 shadow-2xl group">
+                <img 
+                  src={aiHeroConcept} 
+                  alt="Neural Acoustic wave engine visual" 
+                  className="w-full h-auto object-cover rounded-xl grayscale hover:grayscale-0 transition-all duration-[750ms]"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/50 to-transparent pointer-events-none" />
+              </div>
+            </div>
           </div>
         </div>
       </section>

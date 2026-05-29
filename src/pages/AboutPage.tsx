@@ -15,6 +15,7 @@ import {
   TrendingUp,
   Inbox
 } from "lucide-react";
+import ceoPortrait from "../assets/images/ceo_portrait_1780058340436.png";
 
 export default function AboutPage() {
   const companyValues = [
@@ -87,12 +88,17 @@ export default function AboutPage() {
             {/* Left Col Profile Card placeholder with premium corporate design */}
             <div className="lg:col-span-4 flex flex-col justify-between items-center text-center p-6 bg-zinc-950 border border-zinc-900 rounded-2xl">
               <div className="relative">
-                {/* Simulated high-fidelity avatar placeholder */}
-                <div className="w-32 h-32 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 p-1 mb-4 relative overflow-hidden shadow-md">
-                  <div className="absolute inset-x-0 bottom-0 bg-black/40 p-1 text-[8px] font-mono text-emerald-400 font-extrabold uppercase tracking-widest leading-none">
-                    CEO_REPRESENTATIVE
+                {/* High-fidelity generated CEO portrait */}
+                <div className="w-32 h-32 rounded-2xl bg-zinc-900 mb-4 relative overflow-hidden border border-zinc-800 shadow-md group">
+                  <img 
+                    src={ceoPortrait} 
+                    alt="Renu Yadav, Founder & CEO of SonifyAI" 
+                    className="w-full h-full object-cover rounded-xl grayscale hover:grayscale-0 transition-all duration-300"
+                    referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute inset-x-0 bottom-0 bg-zinc-950/80 border-t border-zinc-900 py-1 text-[8px] font-mono text-indigo-400 font-extrabold uppercase tracking-widest leading-none text-center">
+                    FOUNDER & CEO
                   </div>
-                  <User className="w-full h-full text-white/50 p-6 transform scale-105" />
                 </div>
               </div>
 
