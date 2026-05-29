@@ -21,12 +21,13 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Infrastructure", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Features", href: "#features" },
-    { name: "Sandbox", href: "#playground" },
-    { name: "Process", href: "#process" },
-    { name: "Testimonials", href: "#testimonials" }
+    { name: "Home", href: "#/" },
+    { name: "Platform", href: "#/platform" },
+    { name: "Solutions", href: "#/solutions" },
+    { name: "Technology", href: "#/technology" },
+    { name: "Developers", href: "#/developers" },
+    { name: "Pricing", href: "#/pricing" },
+    { name: "About", href: "#/about" }
   ];
 
   const triggerAuth = (mode: "signin" | "signup") => {

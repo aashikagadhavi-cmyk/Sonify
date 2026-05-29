@@ -1,5 +1,5 @@
 import React from "react";
-import { User, Building, MapPin, Mail } from "lucide-react";
+import { User, Building, MapPin, Mail, Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
 import { motion } from "motion/react";
 
 export default function CorporateCredentials() {
@@ -64,9 +64,49 @@ export default function CorporateCredentials() {
                 </a>
               </div>
 
-              <p className="text-sm text-zinc-350 leading-relaxed font-sans mb-6">
+              <p className="text-sm text-zinc-350 leading-relaxed font-sans mb-4">
                 Leading the system architecture, corporate alignments, and global integration of generative AI workflows for maximum business productivity.
               </p>
+
+              {/* Social Channels */}
+              <div className="flex items-center gap-2 mb-6">
+                <a 
+                  href="https://linkedin.com/company/sonifyai" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="p-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-850 border border-zinc-800 hover:border-indigo-500/30 text-zinc-400 hover:text-indigo-400 transition-colors"
+                  title="LinkedIn"
+                >
+                  <Linkedin className="w-3.5 h-3.5" />
+                </a>
+                <a 
+                  href="https://x.com/sonifyai" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="p-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-850 border border-zinc-800 hover:border-indigo-500/30 text-zinc-400 hover:text-indigo-400 transition-colors"
+                  title="X (Twitter)"
+                >
+                  <Twitter className="w-3.5 h-3.5" />
+                </a>
+                <a 
+                  href="https://facebook.com/sonifyai" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="p-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-850 border border-zinc-800 hover:border-indigo-500/30 text-zinc-400 hover:text-indigo-400 transition-colors"
+                  title="Facebook"
+                >
+                  <Facebook className="w-3.5 h-3.5" />
+                </a>
+                <a 
+                  href="https://instagram.com/sonifyai" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="p-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-850 border border-zinc-800 hover:border-indigo-500/30 text-zinc-400 hover:text-indigo-400 transition-colors"
+                  title="Instagram"
+                >
+                  <Instagram className="w-3.5 h-3.5" />
+                </a>
+              </div>
             </div>
 
             <div className="pt-5 border-t border-zinc-900 flex flex-col sm:flex-row sm:items-center justify-between gap-3">

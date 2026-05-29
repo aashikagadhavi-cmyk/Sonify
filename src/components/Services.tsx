@@ -69,10 +69,10 @@ export default function Services() {
             <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
             Core Generative Capabilities
           </div>
-          <h2 className="text-4xl md:text-5xl font-sans font-bold text-white tracking-tight leading-tight">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-white tracking-tight leading-tight">
             Specialized Corporate AI Services
           </h2>
-          <p className="mt-4 text-gray-400 text-base leading-relaxed">
+          <p className="mt-4 text-gray-400 text-base leading-relaxed max-w-xl mx-auto">
             Harness SonifyAI's modular design matrices to eliminate friction, automate production pipelines, and scale customer experiences.
           </p>
         </div>
@@ -84,7 +84,7 @@ export default function Services() {
             return (
               <div
                 key={svc.id}
-                className={`group bg-zinc-950/50 hover:bg-zinc-950 border border-zinc-900 ${svc.glow} hover:-translate-y-1.5 transition-all duration-300 rounded-3xl p-8 relative flex flex-col justify-between align-stretch shadow-xl overflow-hidden`}
+                className={`group glass-panel glass-panel-hover ${svc.glow} rounded-3xl p-8 relative flex flex-col justify-between align-stretch shadow-xl overflow-hidden`}
               >
                 {/* Horizontal shimmer glow top */}
                 <div className="absolute inset-x-0 top-0 h-[1.5px] bg-gradient-to-r from-transparent via-zinc-800 to-transparent group-hover:via-indigo-500/45 transition-colors duration-500" />

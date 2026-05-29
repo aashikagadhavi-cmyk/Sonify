@@ -35,7 +35,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-4xl sm:text-5xl md:text-6xl font-bold font-sans text-white tracking-tight leading-[1.08] mb-6"
+            className="text-4xl sm:text-5xl md:text-6xl font-bold font-display text-white tracking-tighter leading-[1.08] mb-6"
           >
             Build Smarter <br />
             Businesses with <br />
@@ -104,7 +104,7 @@ export default function Hero() {
         >
           
           {/* Main Visual Box */}
-          <div className="w-full h-full bg-zinc-950/85 border border-zinc-800 rounded-2xl p-4 md:p-6 shadow-2xl shadow-black/80 relative overflow-hidden backdrop-blur-md">
+          <div className="w-full h-full glass-panel glass-panel-hover rounded-2xl p-4 md:p-6 shadow-2xl relative overflow-hidden">
             
             {/* Header detail bar */}
             <div className="flex items-center justify-between border-b border-zinc-900 pb-4 mb-4">
@@ -160,7 +160,7 @@ export default function Hero() {
                   &gt; Syncing Aetheria-9 core synthesis nodes...
                 </div>
                 <div className="text-[11px] font-mono text-zinc-500 leading-snug">
-                  &gt; Generation ready: <span className="text-indigo-400">"Transforming Businesses with Generative AI"</span>
+                  &gt; Generation ready: <span className="text-indigo-400">"AI-powered automation for modern enterprises..."</span>
                 </div>
               </div>
 
@@ -185,23 +185,23 @@ export default function Hero() {
           </div>
 
           {/* Decorative Floaties absolute */}
-          <div className="absolute -top-6 -right-6 bg-zinc-900/90 border border-zinc-800 rounded-xl p-3 shadow-lg flex items-center gap-3 backdrop-blur-md hidden sm:flex">
-            <div className="p-2 bg-indigo-500/10 rounded-lg text-indigo-400">
-              <Server className="w-5 h-5 text-indigo-400" />
+          <div className="absolute -top-6 -right-6 glass-panel rounded-xl p-3.5 shadow-xl flex items-center gap-3 hidden sm:flex">
+            <div className="p-2 bg-indigo-500/10 rounded-lg text-indigo-400 border border-indigo-500/25">
+              <Server className="w-4 h-4 text-indigo-400" />
             </div>
             <div>
-              <span className="text-[10px] text-zinc-500 font-mono block">CLOUD NODES</span>
-              <span className="text-xs font-bold text-white font-sans">99.98% uptime</span>
+              <span className="text-[9px] text-zinc-500 font-mono block tracking-wider">CLOUD NODES</span>
+              <span className="text-xs font-bold text-white font-display">99.98% Uptime</span>
             </div>
           </div>
 
-          <div className="absolute -bottom-6 -left-6 bg-zinc-900/90 border border-zinc-800 rounded-xl p-3 shadow-lg flex items-center gap-3 backdrop-blur-md hidden sm:flex">
-            <div className="p-2 bg-blue-500/10 rounded-lg text-blue-400">
-              <Layers className="w-5 h-5 text-blue-400" />
+          <div className="absolute -bottom-6 -left-6 glass-panel rounded-xl p-3.5 shadow-xl flex items-center gap-3 hidden sm:flex">
+            <div className="p-2 bg-blue-500/10 rounded-lg text-blue-400 border border-blue-500/25">
+              <Layers className="w-4 h-4 text-blue-400" />
             </div>
             <div>
-              <span className="text-[10px] text-zinc-500 font-mono block">FLOW INTEGRITY</span>
-              <span className="text-xs font-bold text-white font-sans">Zero lag failures</span>
+              <span className="text-[9px] text-zinc-500 font-mono block tracking-wider">FLOW INTEGRITY</span>
+              <span className="text-xs font-bold text-white font-display">Zero Latency</span>
             </div>
           </div>
 

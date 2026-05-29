@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
             <span className="text-xs font-mono text-indigo-400 uppercase tracking-widest block mb-4">
               A/B ARCHITECTURE ANALYSIS
             </span>
-            <h2 className="text-3xl md:text-5xl font-sans font-bold text-white tracking-tight leading-tight">
+            <h2 className="text-3xl md:text-5xl font-display font-extrabold text-white tracking-tight leading-tight">
               Why Corporate Leaders <br />
               Choose SonifyAI
             </h2>
@@ -70,25 +70,25 @@ export default function WhyChooseUs() {
         {/* Dynamic Metrics Panel */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           
-          <div className="bg-zinc-900/30 border border-zinc-900 rounded-2xl p-6 text-left relative overflow-hidden group hover:border-zinc-800 transition-colors">
+          <div className="glass-panel glass-panel-hover rounded-2xl p-6 text-left relative overflow-hidden group">
             <span className="text-zinc-650 text-[10px] uppercase font-mono tracking-widest">DEPLOYMENT VELOCITY</span>
             <span className="text-3xl md:text-4xl font-mono font-bold text-white block mt-3">92x</span>
             <p className="text-zinc-400 text-xs mt-2 leading-relaxed">Faster workflow design compile compared to legacy scriptwriting cycles.</p>
           </div>
 
-          <div className="bg-zinc-900/30 border border-zinc-900 rounded-2xl p-6 text-left relative overflow-hidden group hover:border-zinc-800 transition-colors">
+          <div className="glass-panel glass-panel-hover rounded-2xl p-6 text-left relative overflow-hidden group">
             <span className="text-zinc-650 text-[10px] uppercase font-mono tracking-widest">INFRASTRUCTURE SECURITY</span>
             <span className="text-3xl md:text-4xl font-mono font-bold text-white block mt-3">SOC2</span>
             <p className="text-zinc-400 text-xs mt-2 leading-relaxed">Type II credentialing ensures completely isolated customer data workspaces.</p>
           </div>
 
-          <div className="bg-zinc-900/30 border border-zinc-900 rounded-2xl p-6 text-left relative overflow-hidden group hover:border-zinc-800 transition-colors">
+          <div className="glass-panel glass-panel-hover rounded-2xl p-6 text-left relative overflow-hidden group">
             <span className="text-zinc-650 text-[10px] uppercase font-mono tracking-widest">OVERHEAD MAINTENANCE</span>
             <span className="text-3xl md:text-4xl font-mono font-bold text-white block mt-3">-65%</span>
             <p className="text-zinc-400 text-xs mt-2 leading-relaxed">Reduction in ongoing developer support requirements and operational lag.</p>
           </div>
 
-          <div className="bg-zinc-900/30 border border-zinc-900 rounded-2xl p-6 text-left relative overflow-hidden group hover:border-zinc-800 transition-colors">
+          <div className="glass-panel glass-panel-hover rounded-2xl p-6 text-left relative overflow-hidden group">
             <span className="text-zinc-650 text-[10px] uppercase font-mono tracking-widest">API LATENCY REDUCTION</span>
             <span className="text-3xl md:text-4xl font-mono font-bold text-white block mt-3">1.2s</span>
             <p className="text-zinc-400 text-xs mt-2 leading-relaxed">Saved on every core transaction through intelligent pre-compiled caching nodes.</p>
@@ -97,7 +97,7 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Comparison Table */}
-        <div className="bg-black/40 border border-zinc-900 rounded-3xl overflow-hidden backdrop-blur-md shadow-2xl">
+        <div className="glass-panel rounded-3xl overflow-hidden shadow-2xl">
           
           {/* Table Header Row */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-4 border-b border-zinc-900 p-6 bg-zinc-950/40 text-[10px] font-mono text-zinc-500 uppercase tracking-wider text-left">

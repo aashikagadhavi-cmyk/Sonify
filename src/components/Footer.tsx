@@ -1,5 +1,5 @@
 import React from "react";
-import { Bot, Mail, ShieldAlert, Cpu, Terminal, ArrowUpCircle, MapPin, User } from "lucide-react";
+import { Bot, Mail, ShieldAlert, Cpu, Terminal, ArrowUpCircle, MapPin, User, Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -38,6 +38,46 @@ export default function Footer() {
               <p className="text-zinc-500 text-sm leading-relaxed mb-6 font-sans">
                 sonifyai Private Limited is a next-generation generative AI company focused on transforming how businesses create, automate, and interact with digital content.
               </p>
+
+              {/* Social Media Links */}
+              <div className="flex items-center gap-3 mb-6">
+                <a 
+                  href="https://linkedin.com/company/sonifyai" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-9 h-9 rounded-xl bg-zinc-950 border border-zinc-900 hover:border-indigo-500/40 hover:bg-indigo-950/20 hover:text-indigo-400 flex items-center justify-center text-zinc-500 hover:scale-105 transition-all shadow-sm"
+                  title="LinkedIn"
+                >
+                  <Linkedin className="w-4 h-4" />
+                </a>
+                <a 
+                  href="https://x.com/sonifyai" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-9 h-9 rounded-xl bg-zinc-950 border border-zinc-900 hover:border-indigo-500/40 hover:bg-indigo-950/20 hover:text-indigo-400 flex items-center justify-center text-zinc-500 hover:scale-105 transition-all shadow-sm"
+                  title="X (Twitter)"
+                >
+                  <Twitter className="w-4 h-4" />
+                </a>
+                <a 
+                  href="https://facebook.com/sonifyai" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-9 h-9 rounded-xl bg-zinc-950 border border-zinc-900 hover:border-indigo-500/40 hover:bg-indigo-950/20 hover:text-indigo-400 flex items-center justify-center text-zinc-500 hover:scale-105 transition-all shadow-sm"
+                  title="Facebook"
+                >
+                  <Facebook className="w-4 h-4" />
+                </a>
+                <a 
+                  href="https://instagram.com/sonifyai" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-9 h-9 rounded-xl bg-zinc-950 border border-zinc-900 hover:border-indigo-500/40 hover:bg-indigo-950/20 hover:text-indigo-400 flex items-center justify-center text-zinc-500 hover:scale-105 transition-all shadow-sm"
+                  title="Instagram"
+                >
+                  <Instagram className="w-4 h-4" />
+                </a>
+              </div>
             </div>
 
             <div className="flex flex-col gap-4 bg-zinc-950/90 border border-indigo-500/25 p-5 rounded-2xl shadow-lg shadow-indigo-950/10">
@@ -74,11 +114,11 @@ export default function Footer() {
           <div className="md:col-span-3 text-left">
             <h4 className="text-white font-mono text-xs uppercase tracking-widest mb-6">Core Services</h4>
             <ul className="space-y-3.5 text-sm font-sans">
-              <li><a href="#services" className="hover:text-white transition-colors">AI Content Generator</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Conversational Assistants</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Workflow Automation</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Voice Synthesis Nodes</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Enterprise AI APIs</a></li>
+              <li><a href="#/solutions" className="hover:text-white transition-colors">AI Content Generator</a></li>
+              <li><a href="#/solutions" className="hover:text-white transition-colors">Conversational Assistants</a></li>
+              <li><a href="#/solutions" className="hover:text-white transition-colors">Workflow Automation</a></li>
+              <li><a href="#/solutions" className="hover:text-white transition-colors">Voice Synthesis Nodes</a></li>
+              <li><a href="#/developers" className="hover:text-white transition-colors">Enterprise AI APIs</a></li>
             </ul>
           </div>
 
@@ -86,11 +126,11 @@ export default function Footer() {
           <div className="md:col-span-2 text-left">
             <h4 className="text-white font-mono text-xs uppercase tracking-widest mb-6">Resources</h4>
             <ul className="space-y-3.5 text-sm font-sans">
-              <li><a href="#playground" className="hover:text-white transition-colors">Demo Sandbox</a></li>
-              <li><a href="#about" className="hover:text-white transition-colors">System Layers</a></li>
-              <li><a href="#why-choose-us" className="hover:text-white transition-colors font-semibold text-indigo-400">Why SonifyAI</a></li>
-              <li><a href="#features" className="hover:text-white transition-colors">Features Matrix</a></li>
-              <li><a href="#process" className="hover:text-white transition-colors">Step Timeline</a></li>
+              <li><a href="#/developers" className="hover:text-white transition-colors">Demo Sandbox</a></li>
+              <li><a href="#/platform" className="hover:text-white transition-colors">System Layers</a></li>
+              <li><a href="#/about" className="hover:text-white transition-colors font-semibold text-indigo-400">Why SonifyAI</a></li>
+              <li><a href="#/technology" className="hover:text-white transition-colors">Features Matrix</a></li>
+              <li><a href="#/pricing" className="hover:text-white transition-colors">Pricing & Plans</a></li>
             </ul>
           </div>
 
@@ -123,10 +163,16 @@ export default function Footer() {
           <div className="font-sans text-left">
             &copy; {currentYear} sonifyai Private Limited. All rights reserved.
           </div>
-          <div className="flex items-center gap-6 font-mono text-[11px]">
-            <a href="#" className="hover:text-zinc-400 transition-colors">PRIVACY_POLICY</a>
-            <a href="#" className="hover:text-zinc-400 transition-colors">TERMS_SLA</a>
-            <a href="#" className="hover:text-zinc-400 transition-colors">SOC2_AUDIT_LOGS</a>
+          <div className="flex flex-wrap items-center justify-center sm:justify-end gap-x-5 gap-y-2 font-mono text-[10px] tracking-wider">
+            <a href="#/legal-privacy" className="text-zinc-500 hover:text-indigo-400 transition-colors">PRIVACY_POLICY</a>
+            <span className="text-zinc-800 hidden sm:inline">•</span>
+            <a href="#/legal-terms" className="text-zinc-500 hover:text-indigo-400 transition-colors">TERMS_CONDITIONS</a>
+            <span className="text-zinc-800 hidden sm:inline">•</span>
+            <a href="#/legal-disclaimer" className="text-zinc-500 hover:text-indigo-400 transition-colors">DISCLAIMER</a>
+            <span className="text-zinc-800 hidden sm:inline">•</span>
+            <a href="#/legal-cookies" className="text-zinc-500 hover:text-indigo-400 transition-colors">COOKIE_POLICY</a>
+            <span className="text-zinc-800 hidden sm:inline">•</span>
+            <a href="#/legal-acceptable-use" className="text-zinc-500 hover:text-indigo-400 transition-colors">ACCEPTABLE_USE</a>
           </div>
         </div>
 

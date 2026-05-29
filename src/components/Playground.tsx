@@ -138,7 +138,7 @@ export default function Playground() {
             <Sparkles className="w-3.5 h-3.5 animate-pulse text-indigo-400" />
             Interactive Core Sandbox
           </div>
-          <h2 className="text-4xl md:text-5xl font-sans font-bold text-white tracking-tight leading-tight">
+          <h2 className="text-4xl md:text-5xl font-display font-extrabold text-white tracking-tight leading-tight">
             Deploy Custom Workflows <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">Instantly</span>
           </h2>
           <p className="mt-4 text-gray-400 text-lg leading-relaxed">
@@ -150,7 +150,7 @@ export default function Playground() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
           
           {/* Controls Column (left 5 spans) */}
-          <div className="lg:col-span-5 bg-zinc-950/60 border border-zinc-800/80 rounded-2xl p-6 md:p-8 backdrop-blur-xl flex flex-col justify-between relative shadow-2xl shadow-indigo-950/20">
+          <div className="lg:col-span-5 glass-panel rounded-2xl p-6 md:p-8 flex flex-col justify-between relative shadow-2xl">
             <div className="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-transparent via-indigo-500/30 to-transparent" />
             
             <div>
@@ -249,7 +249,7 @@ export default function Playground() {
           </div>
 
           {/* Interactive Output Column (right 7 spans) */}
-          <div className="lg:col-span-7 bg-zinc-950/40 border border-zinc-800/50 rounded-2xl p-6 md:p-8 backdrop-blur-xl relative min-h-[480px] flex flex-col justify-between overflow-hidden shadow-2xl">
+          <div className="lg:col-span-7 glass-panel rounded-2xl p-6 md:p-8 relative min-h-[480px] flex flex-col justify-between overflow-hidden shadow-2xl">
             {/* Gloss border top */}
             <div className="absolute inset-x-0 top-0 h-[1.5px] bg-gradient-to-r from-transparent via-cyan-500/30 to-purple-500/20" />
             

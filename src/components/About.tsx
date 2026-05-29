@@ -51,7 +51,7 @@ export default function About() {
             <span className="text-xs font-mono text-indigo-400 uppercase tracking-widest block mb-4">
               Infrastructure Blueprint
             </span>
-            <h2 className="text-3xl md:text-5xl font-sans font-bold text-white tracking-tight leading-tight">
+            <h2 className="text-3xl md:text-5xl font-display font-extrabold text-white tracking-tight leading-tight">
               Next-Generation <br />
               AI Infrastructure
             </h2>
@@ -107,7 +107,7 @@ export default function About() {
           </div>
 
           {/* Interactive Layer Detail Stage (col 7) */}
-          <div className="lg:col-span-7 bg-zinc-950/70 border border-zinc-900 rounded-2xl p-6 md:p-8 min-h-[320px] flex flex-col justify-between relative overflow-hidden shadow-2xl">
+          <div className="lg:col-span-7 glass-panel rounded-2xl p-6 md:p-8 min-h-[320px] flex flex-col justify-between relative overflow-hidden shadow-2xl">
             <div className="absolute inset-x-0 bottom-0 h-[1.5px] bg-gradient-to-r from-transparent via-indigo-500/20 to-transparent" />
             
             <AnimatePresence mode="wait">
