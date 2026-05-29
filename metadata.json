@@ -1,6 +1,6 @@
 {
-  "name": "SonifyAI",
-  "description": "AI-powered automation, intelligent assistants, and scalable digital solutions designed for modern enterprises. Align operations, generate natural interactions, and multiply outputs effortlessly.",
+  "name": "SonifyAI Private Limited",
+  "description": "Next-generation generative AI company delivering enterprise-grade AI solutions, intelligent automation systems, conversational AI voice engines, and custom model deployments globally.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
